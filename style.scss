@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   a {
     color: inherit;
   }
@@ -65,7 +65,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 14px 0;
 }
 
 a {
@@ -78,7 +78,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 14px 0;
   padding-left: 30px;
 }
 
@@ -176,7 +176,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 0px;
   }
 }
 
@@ -195,8 +195,8 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 200;
+  font-size: 26px;
   letter-spacing: 1px;
 }
 
@@ -213,8 +213,10 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  font-family: $helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
 
   @include mobile {
     float: none;
