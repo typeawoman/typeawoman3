@@ -17,7 +17,7 @@ html {
   font-size: 100%;
 }
 body {
-	background: $white;
+  background: $white;
   font: 16px/1.2 $helvetica;
   color: $darkGray;
 }
@@ -31,10 +31,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.4;
+  font-size:24px;
+  color:#3d3d3d;
+  font-weight: bold; 
+  letter-spacing:normal;
+  //color: $darkerGray;
+  
+  display:block;
+  text-align:left;
+  line-height: 125%;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -44,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 24px;
   a {
     color: inherit;
   }
@@ -69,7 +74,7 @@ p {
 
 a {
   color: #d40202;
-  text-decoration: none;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
     color: #d40202;
