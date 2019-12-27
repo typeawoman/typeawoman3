@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: TypeAWoman
+name: Type A Woman
 
 # Short bio or description (displayed in the header)
 description: A circle of strong, fearless and driven females
@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
   
- excerpt_separator: <!-- more -->
+ 
