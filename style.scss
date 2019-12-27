@@ -20,8 +20,7 @@ html {
 body {
 	background: $white;
   font: 16px/1.2 $helvetica;
-  //color: $darkGray;
-  color: #3d3d3d;
+  color: $darkGray;
 }
 
 .container {
@@ -36,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.4;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -70,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $hl;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $hl;
   }
 }
 
@@ -235,7 +234,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $hl;
     }
   }
 }
