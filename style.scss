@@ -18,7 +18,7 @@ html {
 }
 body {
   background: $white;
-  font: 16px/1.2 $helvetica;
+  font: 16px/150% $helvetica;
   color: $darkGray;
 }
 
@@ -32,7 +32,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   font-size:24px;
-  color:#3d3d3d;
+  color: $darkerGray;
   font-weight: bold; 
   letter-spacing:normal;
   //color: $darkerGray;
@@ -73,11 +73,11 @@ p {
 }
 
 a {
-  color: #d40202;
-  text-decoration: underline;
+  color: $hl;
+  text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #d40202;
+        color: $hl;
   }
 }
 
@@ -198,7 +198,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $helvetica;
   font-weight: 200;
   font-size: 26px;
   letter-spacing: 1px;
@@ -206,8 +206,9 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $darkgray;
   font-size: 16px;
+  letter-spacing: 1px;
 
   @include mobile {
     margin: 3px 0;
