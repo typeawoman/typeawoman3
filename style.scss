@@ -206,6 +206,7 @@ img {
   font-weight: 200;
   font-size: 26px;
   letter-spacing: 1px;
+  
 }
 
 .site-description {
@@ -215,7 +216,8 @@ img {
   letter-spacing: 1px;
 
   @include mobile {
-    margin: 3px 0;
+     display: block;
+     margin: 3px 1px;
   }
 }
 
@@ -243,7 +245,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $hl;
+      color: $darkGray;
     }
   }
 }
@@ -253,20 +255,29 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1.6em;
   border-bottom: 1px solid $lightGray;
+	
+  @include mobile {
+    padding: 18px 0;
+  }
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
+  border-bottom: 1px solid $lightGray;
+  
+  @include mobile {
+    padding: 18px 0;
+  }
+  //border-bottom: none;
 }
 
 .post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
-    padding: 0.1em 1em;
+    padding: 0.5em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
@@ -283,7 +294,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 40px;
   //border-top: 1px solid #ddd;
   //border-bottom: 1px solid #ddd;
   //background-color: $lightGray;
